@@ -128,7 +128,7 @@ r;w,,Hc2PumpStatus,PumpStatus heating circuit 2,,,,1E00,,,UIN,,,pump status of z
 *r,,,,,,B524,02000202,,,IGN:4,,,
 *w,,,,,,B524,02010202,,,,,,
 r,,Hc3CircuitType,CircuitType heating circuit 3,,,,0200,,,mctype;IGN:1,,,
-#r;w,,Hc3Unknown04,(constant 30) temperature heating circuit 3,,,,0400,,,tempv,,,unknown value for Hc3
+r;w,,Hc3TempDesired,Hc3 hwc temperature desired,,,,0400,,,tempv,,,setpoint of Hc3 domestic hot water circuit
 r,,Hc3ActualFlowTempDesired,ActualFlowTempDesired heating circuit 3,,,,0700,,,tempv,,,current flow temperature setpoint of Hc3
 r,,Hc3FlowTemp,FlowTemp heating circuit 3,,,,0800,,,tempv,,,current flow temperature of Hc3
 #r;w,,Hc3Unknown09,(constant 60) temperature,,,,0900,,,tempv,,,unknown value for Hc3
@@ -172,7 +172,7 @@ r;w,,Hc4PumpStatus,PumpStatus heating circuit 4,,,,1E00,,,UIN,,,pump status of H
 *r,,,,,,B524,02000204,,,IGN:4,,,
 *w,,,,,,B524,02010204,,,,,,
 r,,Hc5CircuitType,CircuitType heating circuit 5,,,,0200,,,mctype;IGN:1,,,
-#r;w,,Hc5Unknown04,(constant 30) temperature heating circuit 5,,,,0400,,,tempv,,,unknown value for Hc5
+r;w,,Hc5TempDesired,Hc5 hwc temperature desired,,,,0400,,,tempv,,,setpoint of Hc5 domestic hot water circuit
 r,,Hc5ActualFlowTempDesired,ActualFlowTempDesired heating circuit 5,,,,0700,,,tempv,,,current flow temperature setpoint of Hc5
 r,,Hc5FlowTemp,FlowTemp heating circuit 5,,,,0800,,,tempv,,,current flow temperature of Hc5
 #r;w,,Hc5Unknown09,(constant 60) temperature,,,,0900,,,tempv,,,unknown value for Hc5
