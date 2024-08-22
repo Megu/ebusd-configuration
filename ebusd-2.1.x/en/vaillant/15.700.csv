@@ -128,17 +128,17 @@ r;w,,Hc2PumpStatus,PumpStatus heating circuit 2,,,,1E00,,,UIN,,,pump status of z
 *r,,,,,,B524,02000202,,,IGN:4,,,
 *w,,,,,,B524,02010202,,,,,,
 r,,Hc3CircuitType,CircuitType heating circuit 3,,,,0200,,,mctype;IGN:1,,,
-r;w,,Hc3TempDesired,Hc3 hwc temperature desired,,,,0400,,,tempv,,,setpoint of Hc3 domestic hot water circuit
+#r;w,,Hc3Unknown03,(constant 30) temperature heating circuit 3,,,,0400,,,tempv,,,unknown value for Hc3
 r,,Hc3ActualFlowTempDesired,ActualFlowTempDesired heating circuit 3,,,,0700,,,tempv,,,current flow temperature setpoint of Hc3
 r,,Hc3FlowTemp,FlowTemp heating circuit 3,,,,0800,,,tempv,,,current flow temperature of Hc3
-#r;w,,Hc3Unknown09,(constant 60) temperature,,,,0900,,,tempv,,,unknown value for Hc3
+r;w,,Hc3Unknown09,(constant 60) temperature,,,,0900,,,tempv,,,unknown value for Hc3
 r;w,,Hc3ExcessTemp,ExcessTemp heating circuit 3,,,,0B00,,,calibrationv,,,excess temperature of Hc3 (flow temperature's setpoint is increased by this value to keep the mixing valve in its control range)
-#r;w,,Hc3Unknown0c,(constant 65) temperature heating circuit 3,,,,0C00,,,tempv,,,unknown value for Hc3
-#r;w,,Hc3Unknown0d,(constant 65) temperature heating circuit 3,,,,0D00,,,tempv,,,unknown value for Hc3
+r;w,,Hc3Unknown0c,(constant 65) temperature heating circuit 3,,,,0C00,,,tempv,,,unknown value for Hc3
+r;w,,Hc3Unknown0d,(constant 65) temperature heating circuit 3,,,,0D00,,,tempv,,,unknown value for Hc3
 r;w,,Hc3AutoOffMode,AutoOffMode heating circuit 3,,,,0E00,,,offmode,,,operation of Hc3 during the lowering time; no influence if room temperature modulation is set to thermostat
 r;w,,Hc3HeatCurve,HeatCurve heating circuit 3,,,,0F00,,,EXP,,,heating curve of Hc3
 r;w,,Hc3MaxFlowTempDesired,MaxFlowTempDesired heating circuit 3,,,,1000,,,tempv,,,maximum flow temperature setpoint (end emphasis) of Hc3
-#r;w,,Hc3Unknown11,(constant 20) temperature heating circuit 3,,,,1100,,,tempv,,,unknown value for Hc3
+r;w,,Hc3Unknown11,(constant 20) temperature heating circuit 3,,,,1100,,,tempv,,,unknown value for Hc3
 r;w,,Hc3MinFlowTempDesired,MinFlowTempDesired heating circuit 3,,,,1200,,,tempv,,,minimum flow temperature setpoint (end emphasis) of Hc3
 r;w,,Hc3SummerTempLimit,summer outside switchoff temperature heating circuit 3,,,,1400,,,tempv,,,if outside temperature > summer limit => heating is OFF;applies to comfort and night setback setpoint
 r;w,,Hc3RoomTempSwitchOn,RoomTempSwitchOn heating circuit 3,,,,1500,,,rcmode,,,room temperature modulation of Hc3
@@ -172,17 +172,17 @@ r;w,,Hc4PumpStatus,PumpStatus heating circuit 4,,,,1E00,,,UIN,,,pump status of H
 *r,,,,,,B524,02000204,,,IGN:4,,,
 *w,,,,,,B524,02010204,,,,,,
 r,,Hc5CircuitType,CircuitType heating circuit 5,,,,0200,,,mctype;IGN:1,,,
-r;w,,Hc5TempDesired,Hc5 hwc temperature desired,,,,0400,,,tempv,,,setpoint of Hc5 domestic hot water circuit
+#r;w,,Hc5Unknown04,(constant 30) temperature heating circuit 5,,,,0400,,,tempv,,,unknown value for Hc5
 r,,Hc5ActualFlowTempDesired,ActualFlowTempDesired heating circuit 5,,,,0700,,,tempv,,,current flow temperature setpoint of Hc5
 r,,Hc5FlowTemp,FlowTemp heating circuit 5,,,,0800,,,tempv,,,current flow temperature of Hc5
-#r;w,,Hc5Unknown09,(constant 60) temperature,,,,0900,,,tempv,,,unknown value for Hc5
+r;w,,Hc5Unknown09,(constant 60) temperature,,,,0900,,,tempv,,,unknown value for Hc5
 r;w,,Hc5ExcessTemp,ExcessTemp heating circuit 5,,,,0B00,,,calibrationv,,,excess temperature of Hc5 (flow temperature's setpoint is increased by this value to keep the mixing valve in its control range)
-#r;w,,Hc5Unknown0c,(constant 65) temperature heating circuit 5,,,,0C00,,,tempv,,,unknown value for Hc5
-#r;w,,Hc5Unknown0d,(constant 65) temperature heating circuit 5,,,,0D00,,,tempv,,,unknown value for Hc5
+r;w,,Hc5Unknown0c,(constant 65) temperature heating circuit 5,,,,0C00,,,tempv,,,unknown value for Hc5
+r;w,,Hc5Unknown0d,(constant 65) temperature heating circuit 5,,,,0D00,,,tempv,,,unknown value for Hc5
 r;w,,Hc5AutoOffMode,AutoOffMode heating circuit 5,,,,0E00,,,offmode,,,operation of Hc5 during the lowering time; no influence if room temperature modulation is set to thermostat
 r;w,,Hc5HeatCurve,HeatCurve heating circuit 5,,,,0F00,,,EXP,,,heating curve of Hc5
 r;w,,Hc5MaxFlowTempDesired,MaxFlowTempDesired heating circuit 5,,,,1000,,,tempv,,,maximum flow temperature setpoint (end emphasis) of Hc5
-#r;w,,Hc5Unknown11,(constant 20) temperature heating circuit 5,,,,1100,,,tempv,,,unknown value for Hc5
+r;w,,Hc5Unknown11,(constant 20) temperature heating circuit 5,,,,1100,,,tempv,,,unknown value for Hc5
 r;w,,Hc5MinFlowTempDesired,MinFlowTempDesired heating circuit 5,,,,1200,,,tempv,,,minimum flow temperature setpoint (end emphasis) of Hc5
 r;w,,Hc5SummerTempLimit,summer outside switchoff temperature heating circuit 5,,,,1400,,,tempv,,,if outside temperature > summer limit => heating is OFF;applies to comfort and night setback setpoint
 r;w,,Hc5RoomTempSwitchOn,RoomTempSwitchOn heating circuit 5,,,,1500,,,rcmode,,,room temperature modulation of Hc5
